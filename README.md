@@ -7,6 +7,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app in the brows
 **This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link below to get started.**
 
 Documentation links:
+
 [Semantic UI React](https://react.semantic-ui.com)
 
 [React Redux](https://react-redux.js.org/)
