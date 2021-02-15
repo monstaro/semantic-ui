@@ -27,7 +27,7 @@ In App.js, you will be adding a table with pagination to display some mock data 
 	- Include the pagination component, which should be configured to display 10 items per page. It should also include ellipsis, first/last nav, and previous/next nav options.
 	- The header of each column in the table should sort ascending/descending order, alphabetically & numerically.
 	- Toggling the ascending/descending order should sort the entire data set, not just the items in the currently viewed page.
-	- Bonus: Add a search input that filters the 
+	- Bonus: Add a search input that filters the list based on Company Name, Email, Address or Website. The filtering should be based on strings that contain the characters provided in the input, rather than being an exact match.
 
 ---------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
