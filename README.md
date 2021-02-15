@@ -4,12 +4,15 @@ Installs the dependencies needed for this project.
 ### `yarn start`
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-**This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link above to get started.**
+**This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link below to get started.**
 
 Documentation links:
 [Semantic UI React](https://react.semantic-ui.com)
+
 [React Redux](https://react-redux.js.org/)
+
 [Redux Toolkit](https://redux-toolkit.js.org/)
+
 [Redux DevTools](https://github.com/reduxjs/redux-devtools)
 ## Summary:
 In App.js, you will be adding a table with pagination to display some mock data of users. This project already includes the necessary dependencies for getting started, but you're also free to add any dependencies you feel will help you tackle this challenge. 
