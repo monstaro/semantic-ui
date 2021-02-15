@@ -1,70 +1,32 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+# Copia React Challenge Project
+### `yarn install`
+Installs the dependencies needed for this project.
 ### `yarn start`
+Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link above to get started.**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Documentation links:
+[Semantic UI React](https://react.semantic-ui.com)
+[React Redux](https://react-redux.js.org/)
+[Redux Toolkit](https://redux-toolkit.js.org/)
+[Redux DevTools](https://github.com/reduxjs/redux-devtools)
+## Summary:
+In App.js, you will be adding a table with pagination to display some mock data of users. This view should be able to segment the items in the mock data array as chunks of 10, and properly re-render the screen with the appropriate chunk of data for the associated page currently being viewed. This project already includes the necessary dependencies for getting started, but you're also free to add any dependencies you feel will help you tackle this challenge. 
+## Objectives:
+	- mockSlice.js has an action called 'getMockUsers' which acts as a fake endpoint, providing a set of 100 random users. App.js is already set up to retrieve the data from the mock endpoint.
+	- Add a Table component and generate the rows dynamically with the mock data provided.
+	- The table should have columns for the following:
+		- Company Name
+		- Email
+		- Phone
+		- Address (street, suite, city, zip code)
+		- Website
+		- Date (createdAt)
+	- The 'createdAt' field is a randomly generated date between now and 1 month ago. For any user that has a date over 21 days from now, highlight that row in red to indicate that it needs attention.
+	- Include the pagination component, which should be configured to display 10 items at a time. It should also include ellipsis, first/last nav, and previous/next nav options.
+	- The header of each column in the table should sort ascending/descending order, alphabetically & numerically.
+	- Toggling the ascending/descending order should sort the entire data set, not just the items in the currently viewed page.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---------------------------------------
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
