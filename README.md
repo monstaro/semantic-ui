@@ -3,8 +3,6 @@
 Installs the dependencies needed for this project.
 ### `yarn start`
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-
-**This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link below to get started.**
 ## Summary:
 In App.js, you will be adding a table with pagination to display some mock data of users. This project already includes the necessary dependencies for getting started, but you're also free to add any dependencies you feel will help you tackle this challenge. 
 ## Objectives:
@@ -23,6 +21,7 @@ In App.js, you will be adding a table with pagination to display some mock data 
 	- Toggling the ascending/descending order should sort the entire data set, not just the items in the currently viewed page.
 	- Bonus: Add a search input that filters the list based on Company Name, Email, Address or Website. The filtering should be based on strings that contain the characters provided in the input, rather than being an exact match.
 
+**This project is configured to utilize Redux DevTools browser plugin (Chrome, Edge, and Firefox). However, you can also use the standalone app or integrate a react component into this project if you prefer. Refer to the Redux DevTools link below to get started.**
 ## 3rd Party Documentation links:
 
 [Semantic UI React](https://react.semantic-ui.com)
