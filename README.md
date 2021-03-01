@@ -1,4 +1,3 @@
-# Copia React Challenge Project
 ### `yarn install`
 Installs the dependencies needed for this project.
 ### `yarn start`
